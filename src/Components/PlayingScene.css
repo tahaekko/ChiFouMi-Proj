@@ -1,0 +1,32 @@
+body,html{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f2f2f2;
+    
+}
+
+.playBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 450px;
+    border: 1px solid black;
+}
+.playBox .itemContainer{
+    width: 880px;
+    padding: 10px;
+    margin: 5%;
+    text-align: center;
+    
+}
+.itemContainer .card img{
+    width: 200px;
+}
+.itemContainer .card{
+    cursor: pointer;
+    transition: all 0.25s;
+}
+.itemContainer .card:hover{
+    transform: translate3d(0px,-10px,5px);
+}
