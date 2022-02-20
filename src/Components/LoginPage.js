@@ -20,7 +20,7 @@ function LoginPage() {
                         <div className='field'>
                             <input type={'password'} placeholder='Password'/>
                         </div>
-                        <div><a href='#'>Forget Password ?</a></div>
+                        <div className='Forget'><a href='#'>Forget Password ?</a></div>
                         <div className='field'>
                             <input type={'submit'} value='Login'/>
                         </div>

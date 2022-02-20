@@ -8,7 +8,13 @@ html{
     display: grid;
     height: 100%;
     place-items: center;
-    background: -webkit-linear-gradient(left,#613c7a,#a619a8);
+    background: radial-gradient(circle, 
+    rgba(9,25,38,1) 0%,
+    rgba(13,13,13,1) 45%,
+    rgba(1,22,64,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 body{
     display: grid;
@@ -24,7 +30,7 @@ body{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-    background: -webkit-linear-gradient(left,#8B63A6,#D89CD9);
+    background: -webkit-linear-gradient(left,rgba(6,181,231,1),rgba(0,81,149,0.776));
 }
 .wrapper .imageContainer {
     width: 100%;
@@ -70,4 +76,14 @@ body{
     border-bottom-width: 2px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     
+}
+.Forget{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Forget a{
+    margin-top: 5px;
+    color: rgb(4, 5, 95);
+    font-weight: 600;
+    text-decoration:wavy;
 }
